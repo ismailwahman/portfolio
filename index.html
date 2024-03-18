@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ismail.portfolio</title>
+
+  <!-- Link -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+    rel="stylesheet">
+  <!-- css links -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" type="image/x-icon" href="./resource/favicon.ico" />
+  <link rel="manifest" href="./resource/site.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utilities.css" />
+  <script src="script.js" defer></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init({
+        publicKey: "YPYaevfEQhR2L86od",
+      });
+    })();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+
+</head>
+
+<body>
+  <header id="hero">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <!-- Logo -->
+        <h1 id="logo">
+          <a href="https://github.com/ismailwahman"><img src="./resource/logo.png" alt="Your Logo" /></a>
+        </h1>
+        <!-- Navbar links -->
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+          <li><a class="nav-link" href="#footer">CONTACT</a></li>
+          <li><a class="nav-link" href="#about-me">ABOUT ME</a></li>
+          <li>
+            <a class="gradient-background" href="https://github.com/ismailwahman">RESUME <i
+                class="fas fa-arrow-right"></i></a>
+          </li>
+
+          <!-- Toggle switch -->
+          <div class="theme-switch">
+            <input type="checkbox" id="switch" />
+            <label class="toggle-icons" for="switch">
+              <img class="moon" src="resource/moon.svg" />
+              <img class="sun" src="./resource/sun.svg" />
+            </label>
+          </div>
+          <!-- action menu -->
+        </ul>
+        <div class="action">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="header-container">
+      <img class="profile-image" src="./resource/ismail pic-modified.png" alt="profile pic" />
+      <h1>Hi I'm Ismail AIT WAHMANE</h1>
+
+      <div class="content-text">
+        <h2> WEB Developer</h2>
+        <p>
+          A Full Stack Developer proficient in JavaScript, Node.js, Express.js, and MongoDB, with extensive skills in
+          HTML, CSS,
+          and Tailwind CSS.
+        </p>
+      </div>
+      <a href="mailto:ismail.ait.wahmane@arkx.academy" class="btn btn-secondary">Connect With Me</a>
+    </section>
+  </header>
+  <!-- About Me Section -->
+  <section id="about-me" class="about-me-container container">
+    <div class="division"></div>
+    <div class="content-text">
+      <h2>About Me</h2>
+      <div class="about-me-content">
+    <img src="./resource/licence.jpg" alt="Your Image" class="about-me-image">
+
+        <div class="about-btn">
+        <p>
+          As a graduate in Economics and Management and currently a Full Stack Web Developer Intern at Ark-x Talent
+          Factory, I
+          bring a unique blend of skills to the table. With a strong emphasis on communication, teamwork, self-learning,
+          and
+          agility, I am passionate about creating meaningful and impactful solutions in the ever-evolving world of web
+          development. My journey in both academia and practical experience has equipped me with the adaptability and
+          problem-solving abilities necessary to thrive in dynamic environments.
+        </p>
+        <h3><a href="./resource/cv.pdf" target="_blank" class="CV_btn btn">Download CV <img src="./resource/download.svg"
+            alt=""></a></h3>
+</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="Languages">
+    <h2 class="clients-title">Languages</h2>
+    <ul class="Languages-list has-scrollbar">
+      <li class="Languages-item">
+        <a href="#">
+          <img src="./resource/skillsSvg/icon-html.svg" alt="HTML">
+        </a>
+      </li>
+      <li class="Languages-item">
+        <a href="#">
+          <img src="./resource/skillsSvg/icon-css.svg" alt="CSS">
+        </a>
+      </li>
+      <li class="Languages-item">
+        <a href="#">
+          <img src="./resource/skillsSvg/icon-tailwincss.svg" alt="Tailwind CSS">
+        </a>
+      </li>
+      <li class="Languages-item">
+        <a href="#">
+          <img src="./resource/skillsSvg/icon-js.svg" alt="JavaScript">
+        </a>
+      </li>
+      <li class="Languages-item">
+        <a href="#">
+          <img src="./resource/skillsSvg/icon-typescript.svg" alt="TypeScript">
+        </a>
+      </li>
+      <li class="Languages-item">
+        <a href="#">
+          <img src="./resource/skillsSvg/icon-mongodb.svg" alt="MongoDB">
+        </a>
+      </li>
+      <li class="Languages-item">
+        <a href="#">
+          <img src="./resource/skillsSvg/icon-nodejs.svg" alt="Node.js">
+        </a>
+      </li>
+      <li class="Languages-item">
+        <a href="#">
+          <img src="./resource/skillsSvg/icon-react.svg" alt="React.js">
+        </a>
+      </li>
+    </ul>
+  </section>
+
+
+
+
+  <!-- Projects -->
+  <section id="projects" class="project-container container">
+    <div class="division"></div>
+    <div class="content-text">
+      <h2>Projects</h2>
+      <p>Check out some of my personal and paid projects</p>
+    </div>
+    <article class="project">
+      <!-- Project 1 -->
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3> tindog</h3>
+            <p>HTML, CSS, Bootstrap</p>
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/ismailwahman/tindog.git" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href=" https://ismailwahman.github.io/TinDog/" target="_blank"><i class='bx bx-globe'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>Move it </h3>
+            <p>HTML, Bootstrap</p>
+          </div>
+          <div class="project-link">
+            <a href="https://github.com/ismailwahman/Move-it-.git" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://ismailwahman.github.io/Move-it-/" target="_blank"><i class='bx bx-globe'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Porject 3 -->
+      <div href="" class="card">
+        <div class="project-info">
+          <div class="project-bio">
+            <h3>BLOG </h3>
+            <p>JavaScript,NodeJS, ExpressJS</p>
+          </div>
+
+          <div class="project-link">
+            <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <a href="https://github.com/ismailwahman?tab=repositories" class="btn btn-secondary" target="_blank">See More <i
+        class="fas fa-arrow-right"></i></a>
+  </section>
+
+  <!-- contact section  -->
+<section class="contact-container">
+  <form id="contact-form" class="contact-form">
+      <h2>Contact Me :</h2>
+    <!-- To simplify the tutorial, the value is static. -->
+    <input type="hidden" name="contact_number" value="697483">
+    <label for="user_name">Name</label>
+    <input type="text" name="user_name" id="user_name" class="form-input" placeholder="Enter your name" required>
+    <label for="user_email">Email</label>
+    <input type="email" name="user_email" id="user_email" class="form-input" placeholder="Enter your email" required>
+    <label for="message">Message</label>
+    <textarea name="message" id="message" class="form-input" placeholder="Enter your message" required></textarea>
+    <button type="submit" id="show-notification" class="form-btn">Send</button>
+  </form>
+</section>
+
+
+
+
+
+  <footer id="footer">
+    <div class="container">
+      <a href="mailto:ismail.ait.wahmane@arkx.academy">ismail.ait.wahmane@arkx.academy</a>
+      <!-- Social links -->
+      <div class="social">
+        <a href="www.linkedin.com/in/ismail-ait-wahmane" target="_blank"><img src="resource/linkedin-icon.svg"
+            alt="Linkedin" /></a>
+        <a href="https://github.com/ismailwahman" target="_blank"><img src="resource/github-icon.svg"
+            alt="GitHub" /></a>
+        <a href="https://www.instagram.com/the_woo19/" target="_blank"><img src="resource/instagram.svg"
+            alt="instagram" /></a>
+        <p>Copyright &copy; ismail.ait.wahmane <span id="datee"></span>, All rights reserved</p>
+      </div>
+  </footer>
+</body>
+
+</html>
