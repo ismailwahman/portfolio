@@ -397,6 +397,7 @@ body {
   margin-bottom: 1rem;
   border: 3px solid rgb(217, 208, 221);
   border-radius: 5px;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .contact-form textarea {
