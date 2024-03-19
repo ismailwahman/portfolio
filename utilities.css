@@ -133,16 +133,16 @@ h2::selection {
 /* Project Images */
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../resource/project/tindog.png) center center/cover;
+  background: url(./resource/project/tindog.svg) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../resource/project/MoveIt.png) center center/cover;
+  background: url(./resource/project/MoveIt.svg) center center/cover;
 }
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../resource/project/blog.png) center center/cover;
+  background: url(./resource/project/blog.svg) center center/cover;
 }
 
 /* Media Queries */
