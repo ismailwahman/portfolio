@@ -86,3 +86,20 @@ window.onload = function () {
     }
   );
 };
+
+
+// typing style 
+    const typingText = "Hi I'm Ismail AIT WAHMANE";
+    const typingElement = document.getElementById("typing");
+    let typingIndex = 0;
+
+    typingElement.innerHTML = "";
+
+    function typeLetter() {
+      if (typingIndex < typingText.length) {
+        typingElement.innerHTML += typingText.charAt(typingIndex);
+        typingIndex++;
+        setTimeout(typeLetter, 90); 
+      }
+    }
+    setTimeout(typeLetter, 500);
