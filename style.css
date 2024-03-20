@@ -248,6 +248,8 @@ body {
 .testimonial-heading {
   margin-bottom: 30px;
   color: var(--primary-color);
+  font-size: 2rem;
+
 }
 
 .testimonial-wrapper {
@@ -337,7 +339,9 @@ body {
 #projects .btn {
   align-self: center;
   margin: 1rem 0;
+  background: linear-gradient(300deg, #f9f07a, #fb88b4, #9195f6);
 }
+
 
 .project {
   display: grid;
